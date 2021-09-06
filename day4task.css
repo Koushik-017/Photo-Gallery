@@ -1,0 +1,118 @@
+* {
+    box-sizing:  border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    width: 170%;
+    background-color: #2c3e50;
+  }
+  
+ 
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  
+   
+ 
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+  flex-direction: column;
+    max-width: 20%;
+    padding: 0 4px;
+
+
+    
+  }
+  
+  .column img {
+    margin-top: 10px;
+    border:2px solid black;
+    border-radius: 40%;
+    vertical-align:middle;
+    height: auto;
+    
+  }
+#img1:hover{
+opacity: 50%;
+}
+#img2:hover{
+opacity: 10%;
+}
+#img4:hover{
+  border: 5px solid red;
+   border-radius:50%;
+}
+
+#img12:hover{
+  border: 5px solid red;
+   border-radius:50%;
+}#img3:hover{
+  border: 5px solid blue;
+   border-radius :8px;;
+}
+#img5:hover{
+  border: 5px solid palevioletred;
+   border-radius :8px;;
+}
+#img6:hover{
+  border: 5px solid gold;
+   border-radius :8px;;
+}
+#img7:hover{
+  border: 5px solid teal;
+   border-radius :8px;;
+}
+#img8:hover{
+  border: 5px solid indigo;
+   border-radius :8px;;
+}#img12 {
+  opacity: 0;
+
+}
+#img12:hover {
+  opacity: 1.0;
+  width: 100%;
+  height: auto;
+border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#img10:hover{
+  border: 5px solid greenyellow;
+   border-radius :8px;;
+}
+#img13:hover{
+  border: 5px solid red;
+   border-radius :8px;
+   resize: horizontal;
+}
+#img8:hover{
+  border: 5px solid indigo;
+   border-radius :8px;;
+
+}#img11:hover{
+  border: 5px solid red;
+   border-radius:50%;
+}
+
+#img14:hover{
+  border: 5px solid blue;
+   border-radius:50%;
+} 
+#img15:hover{
+  border: 5px solid blue;
+   border-radius:50%;
+}
+#img9:visited{
+  border: 5px solid blue;
+   border-radius:50%;
+   
+}
+
+  
